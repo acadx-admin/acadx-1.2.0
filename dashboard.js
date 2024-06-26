@@ -21,7 +21,7 @@ function getFormattedDateTime() {
   
     const formattedTime = `${dayOfWeek} - ${month} ${date}, ${year} - ${hours}:${minutes < 10 ? '0' + minutes : minutes}:${seconds < 10 ? '0' + seconds : seconds} ${amPM}`;
   
-    document.getElementById("copyrightinfo").innerHTML = formattedTime + " | " + `Copyright &copy; ${new Date().getFullYear()} <span style="color: #e41b45;">ACADX</span> | <a href="/ABOUT" style="color : #f3ff70; text-decoration : none;">Get to Know Us</a>`;
+    document.getElementById("copyrightinfo").innerHTML = formattedTime + " | " + `Copyright &copy; ${new Date().getFullYear()} <span style="color: #e41b45;">ACADX</span> | <a href="/ABOUT/" style="color : #f3ff70; text-decoration : none;">Get to Know Us</a>`;
   }
 
 function openPopup(msg) {
